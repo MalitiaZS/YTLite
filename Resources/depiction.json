@@ -1,71 +1,28 @@
-  {
+{
     "minVersion": "0.1",
-    "headerImage": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/header.png",
+    "headerImage": "https://mrzefv.com/logo.png",
     "class": "DepictionTabView",
-    "tintColor": "#E36678",
+    "tintColor": "#FFD700",
     "tabs": [
         {
             "views": [
                 {
                     "class": "DepictionSubheaderView",
                     "useBottomMargin": false,
-                    "title": "YouTube Plus",
+                    "title": "MRzefv Edition",
                     "useBoldText": true
                 },
                 {
                     "useSpacing": true,
                     "class": "DepictionMarkdownView",
-                    "markdown": "A flexible enhancer for YouTube app"
+                    "markdown": "A fully rebranded YouTube enhancer by MRzefv — powered by DELvEK.NET"
                 },
                 {
                     "spacing": 8,
                     "class": "DepictionSpacerView"
                 },
                 {
-                    "screenshots": [
-                        {
-                            "accessibilityText": "Screenshot0",
-                            "url": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr1.jpg"
-                        },
-                        {
-                            "accessibilityText": "Screenshot1",
-                            "url": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr2.jpg"
-                        },
-                        {
-                            "accessibilityText": "Screenshot2",
-                            "url": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr3.jpg"
-                        },
-                        {
-                            "accessibilityText": "Screenshot3",
-                            "url": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr4.jpg"
-                        },
-                        {
-                            "accessibilityText": "Screenshot4",
-                            "url": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr5.jpg"
-                        },
-                        {
-                            "accessibilityText": "Screenshot5",
-                            "url": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr6.jpg"
-                        },
-                        {
-                            "accessibilityText": "Screenshot6",
-                            "url": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr7.jpg"
-                        },
-                        {
-                            "accessibilityText": "Screenshot7",
-                            "url": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr8.jpg"
-                        },
-                        {
-                            "accessibilityText": "Screenshot8",
-                            "url": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr9.jpg"
-                        }
-                    ],
-                    "itemSize": "{160, 275.41333333333336}",
-                    "class": "DepictionScreenshotsView",
-                    "itemCornerRadius": 6
-                },
-                {
-                    "markdown": "### Features:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\n*YouTube Plus preferences can be found in the YouTube settings*",
+                    "markdown": "### Features:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- Discord RPC Integration\n- And much, much more\n\n*MRzefv Edition preferences can be found in the YouTube settings*",
                     "class": "DepictionMarkdownView",
                     "useBottomMargin": false,
                     "title": "markdown-description",
@@ -79,9 +36,19 @@
                     "class": "DepictionSpacerView"
                 },
                 {
-                    "text": "dayanch96",
+                    "text": "MRzefv",
                     "class": "DepictionTableTextView",
                     "title": "Developer"
+                },
+                {
+                    "text": "DELvEK.NET",
+                    "class": "DepictionTableTextView",
+                    "title": "Trusted Repo"
+                },
+                {
+                    "text": "1.0.2",
+                    "class": "DepictionTableTextView",
+                    "title": "Version"
                 },
                 {
                     "spacing": 8,
@@ -95,13 +62,18 @@
             "views": [
                 {
                     "class": "DepictionTableButtonView",
-                    "title": "My Patreon",
-                    "action": "https://patreon.com/dayanch96"
+                    "title": "Visit mrzefv.com",
+                    "action": "https://mrzefv.com"
                 },
                 {
                     "class": "DepictionTableButtonView",
-                    "title": "Buy me a coffee",
-                    "action": "https://buymeacoffee.com/dayanch96"
+                    "title": "DELvEK Trusted Repo",
+                    "action": "https://delvek.net"
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "Telegram Channel",
+                    "action": "https://t.me/mrzefv"
                 }
             ],
             "class": "DepictionStackView",
